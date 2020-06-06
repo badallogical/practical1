@@ -1,0 +1,94 @@
+body{
+	margin : 0px 0px;
+}
+
+/** zone ***/
+.zone{
+	border : 1px;
+	font-size : 2rem;
+	font-family : Arial;
+	border-radius : 4px;
+	cursor : pointer;
+	transition: all 0.3s linear;
+}
+
+.zone:hover{
+	box-shadow : 0px 10px 15px #333333;
+}
+
+/** NAV BAR **/
+.main-nav{
+	display : flex;
+	list-style : none;
+	margin : 0;
+}
+
+li{
+	padding : 20px;
+}
+
+.push{
+	margin-left : auto;
+}
+
+a{
+	text-decoration : none;
+}
+
+.green{
+	background: linear-gradient( rgba(10,200,10,150), rgba(100,200,100,150));
+}
+
+.sticky{
+	position: fixed;
+	width : 100%;
+}
+
+
+/*** cover ***/
+.cover {
+	display: flex;
+	justify-content : center;
+	align-items : center;
+	height: 70vh
+}
+
+.cover > img {
+	width : 30rem;
+}
+
+/** grid **/
+.grid-wrapper{
+	display : grid;
+	grid-template-columns : repeat( auto-fill , minmax(500px , 1fr) );
+	grid-gap : 20px;
+}
+
+.box > img{
+	width  : 100%;
+	margin : 20px;
+}
+
+.box{
+	background: rgba(100,100,200,100);
+	padding : 130px;
+	margin : 20px;
+}
+
+.box:hover{
+	transform: rotate(-7deg);
+}
+
+.pink {
+	background: rgba(200,200,100,100);
+}
+
+/** footer **/
+footer{
+	text-align : center;
+	padding-top : 20px;
+}
+
+.orange{
+	background: linear-gradient( rgba(200,50,100,100), rgba(200,50,100,100));
+}
