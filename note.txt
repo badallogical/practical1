@@ -1,5 +1,0 @@
-media query is used to make adjustable / responsive layout for different platforms as mobile , tablets and desktop 
-
-
-to make responsiveness when change heigth of browser then use 
-"vh" instead of px or em as 50vh where 50 define the percentage for the view of screen ( vh:view height)
